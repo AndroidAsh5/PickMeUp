@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+
+    tools:context="com.lenovo.tabswithswipes.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#11c8f6"
+    android:layout_height="200dp">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/pp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv"
+    android:textSize="22sp"
+    android:layout_marginTop="5dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:text="test"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textStyle="bold"
+        android:layout_marginLeft="-10dp"
+
+        android:text="Your Username : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:id="@+id/username"
+
+            android:text="ash555"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="-10dp"
+            android:textStyle="bold"
+
+            android:text="Your Email id : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:id="@+id/email"
+
+            android:text="ashmeetarora55@gmail.com"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginLeft="-10dp"
+            android:textStyle="bold"
+
+            android:text="Your Phone Number : "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:id="@+id/num"
+
+            android:text="9780204305"/>
+
+    </LinearLayout>
+</LinearLayout>

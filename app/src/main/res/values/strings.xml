@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pick Me Up</string>
+    <string name="menu_rides">Rides</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_offer">Offer</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_profile">Profile</string>
+    <string name="register"><b><u>No Account yet? Create one</u></b></string>
+    <string name="registered"><b><u>Already a member? Sign in</u></b></string>
+</resources>

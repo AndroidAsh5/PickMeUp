@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_rides"
+        android:title="@string/menu_rides"
+        android:icon="@drawable/p2"
+        />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/menu_search"
+        android:icon="@drawable/ic_search_black"
+        />
+    <item
+        android:id="@+id/menu_offer"
+        android:title="@string/menu_offer"
+        android:icon="@drawable/p3"
+        />
+
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/menu_profile"
+        android:icon="@drawable/p5" />
+</menu>

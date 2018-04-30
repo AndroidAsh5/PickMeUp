@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/c2"
+    tools:context="com.lenovo.tabswithswipes.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Going Somewhere?"
+android:layout_marginTop="220dp"
+        android:textColor="#faf7f7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Share your travel costs with our"
+        android:textColor="#faf7f7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="community"
+
+        android:textColor="#faf7f7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFFER A RIDE"
+android:id="@+id/b"
+        android:padding="10dp"
+
+        android:layout_marginTop="25dp"
+
+        android:textColor="#faf8f8"
+        android:background="@drawable/noborder"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND A RIDE"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+android:id="@+id/b1"
+        android:textColor="#11c8f6"
+        android:background="@drawable/noborder1"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+
+</LinearLayout>
